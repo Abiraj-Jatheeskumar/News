@@ -15,6 +15,7 @@ function App() {
         <div className="content">
          
           <Routes>
+          
           <Route path="/" element={<Navigate to="/newsfeed" replace />} />
             <Route path="/newsfeed" element={<Newsfeed />} />
             <Route path="/home" element={<Home />} />
