@@ -11,7 +11,7 @@ body{
 
 
 section{
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 100px;
 }
 .cards-container {
@@ -97,7 +97,7 @@ section{
 
 @media screen and (max-width: 1200px) {
   section {
-      margin-left: 150px;
+      margin-left: 100px;
       
   }
   
@@ -105,7 +105,7 @@ section{
 
 @media screen and (max-width: 992px) {
   section {
-      margin-left: 150px;
+      margin-left: 100px;
   }
 }
 
@@ -123,6 +123,10 @@ section{
 @media screen and (max-width: 576px) {
   section {
       margin-left: 100px;
+      .card {
+        flex: 0 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
   }
   
 }

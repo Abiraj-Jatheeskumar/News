@@ -53,6 +53,55 @@ const Newsfeed = () => {
       timePeriod: '8 AM - 2 PM',
       seats: 5,
     },
+    {
+      car: 'Toyota Axio',
+      from: 'Jaffna',
+      to: 'galle',
+      route: ['jaffna', 'Colombo', 'galle'],
+      timePeriod: '8 AM - 2 PM',
+      seats: 5,
+    },
+    {
+      car: 'Toyota KDH',
+      from: 'Jaffna',
+      to: 'Colombo',
+      route: ['Jaffna', 'Vavuniya', 'Colombo'], // Updated data structure to represent the route
+      timePeriod: '6 AM - 12 PM',
+      seats: 4,
+    },
+    {
+      car: 'Mercedes Benz',
+      from: 'Anuradhapura',
+      to: 'Kandy',
+      route: ['Anuradhapura', 'Kandy'],
+      timePeriod: '7 AM - 1 PM',
+      seats: 3,
+    },
+    {
+      car: 'Toyota Axio',
+      from: 'Jaffna',
+      to: 'galle',
+      route: ['jaffna', 'Colombo', 'galle'],
+      timePeriod: '8 AM - 2 PM',
+      seats: 5,
+    },
+    {
+      car: 'Toyota Axio',
+      from: 'Jaffna',
+      to: 'galle',
+      route: ['jaffna', 'Colombo', 'galle'],
+      timePeriod: '8 AM - 2 PM',
+      seats: 5,
+    },
+    {
+      car: 'Toyota KDH',
+      from: 'Jaffna',
+      to: 'Colombo',
+      route: ['Jaffna', 'Vavuniya', 'Colombo'], // Updated data structure to represent the route
+      timePeriod: '6 AM - 12 PM',
+      seats: 4,
+    },
+   
     // Add more cards as needed
   ]);
 
