@@ -297,6 +297,37 @@ const Home = () => {
                 </div>
                 <img src={aboutImg} alt="aboutImage" className="about-img" />
             </section>
+
+            {/* services */}
+            <section id='services'>
+        <h2 className='services-tittle'>Our Services</h2>
+        <span className='services-para'>Welcome to our Carpooling Platform, your trusted solution for convenient and efficient ride-sharing. Our platform is designed to bring drivers and passengers together, <br/>ensuring safe and affordable travel options</span>
+        <div className='services-bars'>
+             <div className='services-bar'>
+                 <img className='services-img' src={twi} alt=''/> 
+                 <div className='services-bar-text'>
+                    <h2>AAAA</h2> 
+                    <p>aaaaaaaaaaaaaaaa</p>
+                 </div>
+             </div>
+             <div className='services-bar'>
+                 <img className='services-img' src={insta} alt=''/> 
+                 <div className='services-bar-text'>
+                    <h2>BBBB</h2>
+                    <p>bbbbbbbbbbbb</p> 
+                 </div>
+             </div>
+             <div className='services-bar'>
+                 <img className='services-img' src={fb} alt=''/> 
+                 <div className='services-bar-text'>
+                    <h2>CCCC</h2>
+                    <p>ccccccccccc</p> 
+                 </div>
+             </div>
+        </div>
+
+    </section>
+    
             {/* contactus */}
             <section id="contactpage">
                 <div id="contact">
