@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Searchbar from '../components/Searchbar'; // Import the Searchbar component
 import '../styles/Newsfeed.css';
 // import Sidebar from '../components/Sidebar';
+import { Link } from 'react-router-dom'; // Import Link component
 
 const Newsfeed = () => {
   const [cards] = useState([
@@ -119,7 +120,7 @@ const Newsfeed = () => {
                 <p><strong>Route:</strong> {card.route.join(' ➜ ')}</p> {/* Display the route */}
                 <p><strong>Time Period:</strong> <span className="time-period">{card.timePeriod}</span></p>
                 <p><strong>Available Seats:</strong> <span className="seats">{card.seats}</span></p>
-                <button className="read-more">Read More</button>
+                <Link to={`/readmore/${index}`} className="read-more">Read More</Link> {/* Link to Readmore */}
               </div>
             ))}
           </div>
