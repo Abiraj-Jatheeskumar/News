@@ -4,7 +4,7 @@ import profile from '../assets/profile.JPG';
 import { Link } from 'react-router-dom';
 import { BiHome, BiAddToQueue, BiCurrentLocation, BiNews } from 'react-icons/bi';
 import ReactStars from 'react-rating-stars-component';
-import '../styles/sidebar.css';
+import '../styles/Sidebar.css';
 
 const Sidebar = () => {
   return (
